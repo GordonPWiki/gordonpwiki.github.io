@@ -1,7 +1,3 @@
-body {
-    background: #F0AD4E;
-}
-
 .card {
     margin: 0;
 }
@@ -51,10 +47,12 @@ body {
 }
 
 .card-text {
+    font-size: 1.75rem;
     max-width: 750px;
 }
 
 .lead {
+    font-size: 1.75rem;
     margin-top: 10px;
 }
 
@@ -72,7 +70,7 @@ hr {
 #search-box {
     width: 0;
     padding: 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #F0AD4E;
     background-color: #373A3C;
     opacity: 0.3;
@@ -88,19 +86,19 @@ hr {
 }
 
 #search-box::-webkit-input-placeholder { 
-    color: #F0AD4E;
+    color: whitesmoke;
     opacity: 0.5;
 }
 #search-box::-moz-input-placeholder {
-    color: #F0AD4E;
+    color: whitesmoke;
     opacity: 0.5;
 }
 #search-box:-moz-input-placeholder {
-    color: #F0AD4E;
+    color: whitesmoke;
     opacity: 0.5;
 }
 #search-box:-ms-input-placeholder {
-    color: #F0AD4E;
+    color: whitesmoke;
     opacity: 0.5;
 }
 

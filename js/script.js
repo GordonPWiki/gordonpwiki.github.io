@@ -12,13 +12,15 @@ $(document).ready(function() {
     $('#search-label').mouseover(function() {
         $('#search-box').stop().animate({
             width : '500px',
+            maxWidth : '80%',
             paddingLeft : '5px',
             borderWidth : '3px',
             borderStyle : 'solid',
             borderColor : '#373A3C'
         }, 'fast');
-        $('#search-bar').animate({
-            left : '-50px'
+        $('#search-submit').animate({
+            paddingLeft : '10px',
+            paddingRight : '10px'
         }, 'fast');
     });
     
@@ -29,9 +31,10 @@ $(document).ready(function() {
                 border : 'none',
                 padding : '0'
             }, 'fast');
-            $('#search-bar').animate({
-            left : '0'
-        }, 'fast');
+            $('#search-submit').animate({
+            paddingLeft : '1.5em',
+            paddingRight : '1.5em'
+        }, 'fast');        
         }
     });
         
